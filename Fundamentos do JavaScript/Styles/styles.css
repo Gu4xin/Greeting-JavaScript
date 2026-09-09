@@ -1,0 +1,55 @@
+.body {
+    background-color: rgb(31, 16, 58);
+    color: white;
+}
+
+.tituloTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column; /*Coloca os elementos (H1 e imagem, nesse caso) empilhados verticalmente [INTERESSANTE]*/
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px; /*Coloca um espaçamento específico na parte de baixo*/
+}
+
+.mensagem {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagemBoasVindas {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /*Arredonda a imagem no 50% (fica bem bonitinho redondo)*/
+}
+
+.caixa-texto {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.caixaTexto {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.botao-enviar {
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+.botao-enviar:hover {
+    background-color:blueviolet;
+}
