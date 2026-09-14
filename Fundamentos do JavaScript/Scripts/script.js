@@ -1,8 +1,15 @@
-const botao = document.getElementById("botao-enviar");
-let mensagem = document.getElementById("mensagem");
+const botao = document.querySelector("#botao-enviar");
+let mensagem = document.querySelector("#mensagem");
 
-console.log("Estou funcionando no cmd");
+const botaoIdade = document.querySelector("#botao-enviar-idade");
+let mensagemIdade = document.querySelector("#mensagem-idade");
+
+console.log("Estou funcionando!");
 
 botao.addEventListener("click", function() {
-    mensagem.textContent = "Olá, estou funcionando!"
-})
+    mensagem.textContent = "eu funciono";
+});
+
+botaoIdade.addEventListener("click", function() {
+    mensagemIdade.textContent = "eu também funciono";
+});

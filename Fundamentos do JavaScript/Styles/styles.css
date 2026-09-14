@@ -46,10 +46,31 @@
     padding: 5px;
 }
 
+.caixa-texto-idade {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.caixaTexto-idade {
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .botao-enviar {
     transition: background-color 0.3s;
     border-radius: 5px;
 }
 .botao-enviar:hover {
+    background-color:blueviolet;
+}
+
+.botao-enviar-idade {
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+.botao-enviar-idade:hover {
     background-color:blueviolet;
 }
